@@ -34,12 +34,14 @@ fetch('https://opentdb.com/api.php?amount=5&category=25&difficulty=easy&type=mul
                 mainDiv.appendChild(listAnwers);
                 
                 let labelsQuestions = document.querySelectorAll('label');
-
+/* créer un évenement qui selectionne des réponses */
                 bulletPoints.addEventListener('click', function(){
+/* effacer le nom de la classe à chaque nouveau click */                    
                     for(let elements of labelsQuestions){
                         elements.classList.remove('green');
                         elements.classList.remove('red');
                     }
+/* ajouter un nom de class lorsque c'est la bonne(green) ou la mauvaise(red) réponse */                   
                     if (multipleChoiceLabel.innerHTML == correct_answer) {
                         multipleChoiceLabel.classList.add('green');
                     } else {
@@ -48,19 +50,6 @@ fetch('https://opentdb.com/api.php?amount=5&category=25&difficulty=easy&type=mul
                 })
 
             }
-            
-            /* créer une changement de couleur lorsque c'est la bonne réponse ou la mauvaise */
-            const correctOrNot = ((multipleChoiceLabel, correct_answer) => {
-                let label = document.querySelector(multipleChoiceLabel);
-
-                /* effacer le nom de la classe à chaque nouveau click */
-            
-                    
-
-                    /* ajouter un nom de class lorsque c'est la bonne(green) ou la mauvaise(red) réponse */
-                    
-                
-            });
         }
     })
     .catch(error => {
