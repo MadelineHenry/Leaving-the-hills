@@ -1,0 +1,41 @@
+ @font-face{
+    font-family: Roboto;
+    src : url(./asset/font/Roboto-Light.ttf);
+}  
+
+body{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+h1{
+    font-family: Lora;
+    src : url(./asset/font/Lora-Regular.ttf);
+    font-size: 30px;
+    color: black;
+}
+
+main{
+    color: black;
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: grey;
+    font-size: 16px;
+}
+
+div{
+    font-size: 18px;
+}
+
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+}
