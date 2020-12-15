@@ -1,9 +1,74 @@
 body{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: roboto;
 }
 
-.body_mainTitle{
-    
+.body_titles{
+    display: flex;
+    flex-direction: column;  
 }
 
-.body_directedTitle
+.body_titles_mainTitle{
+    width: 100%;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.body_titles_directedTitle{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 160px;
+}
+
+/*---------------------- ------------------------------*/
+
+.body_editor{
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.body_editor_titles_Markdown, .body_editor_titles_HTML{
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.body_editor_partLeft, .body_editor_partRight{
+    width: 50% ;
+    height: 75vh; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15px;
+}
+
+textarea{
+    width: 50vw;
+    height: 30vw;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 8px; 
+    overflow-wrap: break-word;
+}
+
+.body_editor_partRight_translation{
+    width: 50vw;
+    height: 30vw;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    widows: 8vw;
+} 
