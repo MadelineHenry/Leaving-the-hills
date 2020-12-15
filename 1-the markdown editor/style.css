@@ -49,6 +49,7 @@ body{
 textarea{
     width: 50vw;
     height: 30vw;
+    resize: none;
     font-size: 15px;
     border: 1px solid grey;
     border-radius: 8px; 
@@ -58,6 +59,7 @@ textarea{
 .body_editor_partRight_translation{
     width: 50vw;
     height: 30vw;
+    resize: none;
     border: 1px solid grey;
     border-radius: 8px;
     overflow: scroll;
