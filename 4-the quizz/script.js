@@ -16,6 +16,7 @@ fetch('https://opentdb.com/api.php?amount=5&category=25&difficulty=easy&type=mul
             answer.push(correct_answer);
 
             const questions = document.createElement('div');
+            questions.classList.add = 'questions';
             questions.innerHTML = elem.question;
             const listAnwers = document.createElement('ul');
             
