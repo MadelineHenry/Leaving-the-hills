@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"> 
+    <title>Editor Markdown</title>
 </head>
-<body>
-    <h1 class = "body_mainTitle">Editor Markdown</h1>
-    <h2 class = "body_directedTitle">directed by Madeline Henry</h2>
-    <div class = "body_editor">
-        <div class = "body_editor_titles">
-            <h3>Text in Markdown</h3>
-            <h3>Text in HTML</h3>
-        </div>
-        <div class = "body_editor_container">
-          <div class = "body_editor_container_partLeft">
-            <textarea type="text">  
-            <button>Translate</button>
-          </div>
-          <div class = "body_editor_container_partRight">
 
-          </div>
+<body style="height: 100vh;">
+    <div class="body_titles">
+        <h1 class="body_titles_mainTitle">Editor Markdown</h1>
+        <h2 class="body_titles_directedTitle">Directed by Madeline Henry</h2>
+    </div>
+    <div class="body_editor">
+        <div class="body_editor_partLeft" >
+            <h3 class="body_editor_titles_Markdown">Text in Markdown</h3>
+            <div class="body_editor_partLeft_textarea">
+                <textarea name="">Put your Markdown text</textarea>
+            </div>
+        <button>Translate</button>
         </div>
-        
-
+        <div class="body_editor_partRight">
+            <h3 class="body_editor_titles_HTML">Text in HTML</h3>
+            <div class="body_editor_partRight_translation">
+            </div>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
