@@ -2,5 +2,62 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 77, 77);
+}
+/*Les titres de la page */
+.titles{
+    color:rgb(248, 246, 246);
+}
+
+/*Placement titre principal */
+.titles_main{
+    font-family: "Indie Flower"; src:url(./asset/fonts/IndieFlower-Regular.ttf);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+/*Placement sous-titre*/
+.titles_secondary{
+    font-family: "CormorantGaramond-Bold"; src:url(./asset/fonts/CormorantGaramond-Bold.ttf);;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 180px;
+}
+/* ----------------------- -----------------------*/
+button{
+    color : rgb(243, 77, 77);
+    background-color: rgb(248, 246, 246);
+    border: 1px ;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+button:hover{
+    color:white;
+}
+
+.fas, .far{
+    height: 30px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+i:hover{
+    color:white;
+}
+
+.mainContainer_timer{
+    background-color: rgb(216, 55, 55);
+    border-radius: 50px;
+    margin: 0; 
+}
+
+.mainContainer_timer_hour{
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
