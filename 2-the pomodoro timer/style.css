@@ -1,3 +1,13 @@
+/*Police */
+@font-face{font-family: "Indie Flower"; 
+    src:url(./asset/fonts/IndieFlower-Regular.ttf);
+}
+    @font-face{font-family: "CormorantGaramond-Bold";
+    src:url(./asset/fonts/CormorantGaramond-Bold.ttf);
+}
+
+/* ----------------------- -----------------------*/
+
 body{
     height: 100vh;
     width: 100vw;
@@ -8,31 +18,34 @@ body{
 /*Les titres de la page */
 .titles{
     color:rgb(248, 246, 246);
+
 }
 
 /*Placement titre principal */
 .titles_main{
-    font-family: "Indie Flower"; src:url(./asset/fonts/IndieFlower-Regular.ttf);
-    font-size: 50px;
-    margin-bottom: 0;
+    font-family: "Indie Flower";
+    font-size: 90px;
+    margin-bottom: -15px;
 }
 
 /*Placement sous-titre*/
 .titles_secondary{
-    font-family: "CormorantGaramond-Bold"; src:url(./asset/fonts/CormorantGaramond-Bold.ttf);;
-    font-size: 30px;
+    font-family: "CormorantGaramond-Bold";
+    font-size: 50px;
     margin-top: 0;
-    margin-left: 180px;
+    margin-left: 270px;
+    margin-bottom: 100px;
 }
 /* ----------------------- -----------------------*/
 button{
+    font-family: "CormorantGaramond-Bold";
     color : rgb(243, 77, 77);
     background-color: rgb(248, 246, 246);
     border: 1px ;
     border-radius: 3px;
     padding: 3px;
-    margin-right: 20px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 30px;
     margin-bottom: 0;
 }
 button:hover{
@@ -42,7 +55,7 @@ button:hover{
 .fas, .far{
     height: 30px;
     width: 50px;
-    margin-left: 25px;
+    margin-left: 45px;
 }
 
 i:hover{
@@ -55,9 +68,10 @@ i:hover{
     margin: 0; 
 }
 
-.mainContainer_timer_hour{
+#timer{
+    font-family: "Indie Flower";
     font-size: 60px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
