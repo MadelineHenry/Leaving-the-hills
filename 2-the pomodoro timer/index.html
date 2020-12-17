@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/08f226ae60.js" crossorigin="anonymous"></script>
     <title>Pomodoro timer</title>
 </head>
 <body>
     <main class="">
        <div class="titles">
-            <h1 class="titles_main">Pomodoro</h1>
-            <h2 class="titles_secondary">Timers</h2>
+            <h1 class="titles_main">POMODORO</h1>
+            <h2 class="titles_secondary">TIMERS</h2>
         </div> 
         <div class="mainContainer">
-
+            <div class="mainContainer_buttons" >
+                <button class="buttons_Pom">POMODORO</button>
+                <button class="buttons_shortB">SHORT BREAK</button>
+                <button class="buttons_longB">LONG BREAK</button>
+            </div> 
+            <div class="mainContainer_timer">
+                <p class="mainContainer_timer_minute" id="Min">25</p><p class="mainContainer_timer_time" id="time">:</p><p class="mainContainer_timer_second" id="Sec">00</p>
+            </div>
+            <div class="mainContainer_links">
+                <button class="fas fa-redo"></button>
+                <button class="far fa-play-circle"></button>
+                <button class="far fa-pause-circle"></button>
+            </div>
         </div>
+        
+            
+        </div>
+            
     </main>
-    <div class="buttons" >
-        <button class="play"></button>
-        <button class="replay"></button>
-        <button class="pause"></button>
-    </div>
     
-
     <script src="./script.js"></script>
 </body>
 </html>

@@ -68,7 +68,9 @@ i:hover{
     margin: 0; 
 }
 
-#timer{
+#Min, #time,  #Sec{
+    height: 15px;
+    width: 50px;
     font-family: "Indie Flower";
     font-size: 60px;
     margin-left: 150px;
