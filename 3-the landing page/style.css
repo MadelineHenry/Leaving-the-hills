@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    /*background-image: url(./asset/img/image-asset.jpeg);
+    background-repeat: no-repeat; */
+    transition: background-image 1s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+main{
+    width: ;
+    height: ;
+    color: white;
+}
+
+.fa-youtube{
+
+}
+
+.logo-google{
+    width: 60%;
+}
+
+.logo-gmail{
+    height: 5%;
+    width: 5%;
+}
+
+.logo-netflix{
+    height: 5%;
+    width: 5%;
+}
