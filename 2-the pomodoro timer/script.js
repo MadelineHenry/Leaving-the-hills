@@ -15,7 +15,7 @@ let minutes = 25;
 let seconds = "00";
 
 let click = new Audio("click.mp3");
-let bell = nex Audio("bell.mp3");
+let bell = new Audio("bell.mp3");
 
 function template(){
     document.getElementById("Min").innerHTML = minutes;
@@ -53,61 +53,3 @@ function start(){
         }
     }
 }
-
-
-// let sec = 120;
-// let min = Math.floor((sec/60));
-// let displaySec = sec%60;
-
-// function displayTime(){
-//     if (displaySec < 10){
-//         timer.textContent = `${min}:0${displaySec}`;
-//         if (min < 10 && displaySec < 10){
-//             timer.textContent = `0${min}:0${displaySec}`;
-//         }
-//     }
-//     else if (min < 10){
-//         timer.textContent = `0${min}:${displaySec}`;
-//         if (min < 10 && displaySec < 10){
-//             timer.textContent = `0${min}:0${displaySec}`;
-//         }
-//     }
-//     else{
-//         timer.textContent = `${min}:${displaySec}`;
-//     }
-// }
-
-// displayTime()
-
-// function startTimer() {
-//     min = Math.floor((sec/60));
-//     displaySec = sec%60;
-//     sec--;
-//     displayTime();
-//     if (sec < 0){
-//         stopTimer();
-//     }
-// }
-
-// let interval;
-
-// function stopTimer(){
-//     clearInterval(interval)
-// }
-
-// let playClicked = true;
-
-// play.addEventListener('click', () =>{
-//     if (playClicked == true){
-//         playClicked = false;
-//         interval = setInterval(startTimer, 250);
-//         startTimer()
-//     }
-// })
-
-// stopBtn.addEventListener('click', () =>{
-//     if (playClicked == false){
-//         playClicked = true;
-//         stopTimer();
-//     }
-// })
